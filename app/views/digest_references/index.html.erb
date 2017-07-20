@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Digest References</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @digest_references.each do |digest_reference| %>
+      <tr>
+        <td><%= digest_reference.user %></td>
+        <td><%= link_to 'Show', digest_reference %></td>
+        <td><%= link_to 'Edit', edit_digest_reference_path(digest_reference) %></td>
+        <td><%= link_to 'Destroy', digest_reference, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Digest Reference', new_digest_reference_path %>
