@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+1. `git clone git@github.com:frank-west-iii/refactor_challenge_01.git`
+1. `cd refactor_challenge_01`
+1. `bundle install`
+1. `rake db:setup`
+1. `rake db:seed`
 
-* Ruby version
 
-* System dependencies
+## Refactor under green
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run `rake test` in order to make sure you are green all the way through
