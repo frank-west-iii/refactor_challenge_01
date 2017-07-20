@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  has_many :digest_reference
+  has_many :digest_references
 end
