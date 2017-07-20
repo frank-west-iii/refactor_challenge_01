@@ -6,7 +6,6 @@
 1. `cd refactor_challenge_01`
 1. `bundle install`
 1. `rake db:setup`
-1. `rake db:seed`
 
 
 ## Refactor under green
